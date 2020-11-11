@@ -1,0 +1,582 @@
+// This is an empty scss file for your custom styles - Please add your super duper awesome mega design styles here
+$primary: #1E2B2F;
+$secondary: #28393E;
+
+body {
+    color: #1E2B2F;
+}
+
+#top-bar {
+    height: 1072px;
+    background-color: #28393e;
+    background-image: url('../img/background.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 1;
+    // overflow: visible;
+}
+
+#title {
+    position: absolute;
+    width: 446.516px;
+    height: 115.282px;
+    left: 737px;
+    top: 453px;
+    // overflow: visible;
+    background-image: url('../img/swainson-logo.svg');
+}
+
+#date {
+	left: 686px;
+	top: 736.008px;
+	position: absolute;
+	// overflow: hidden;
+	width: 550px;
+	height: 70px;
+	line-height: 84px;
+	margin-top: -20px;
+	text-align: center;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 44px;
+	color: rgba(255,255,255,1);
+}
+
+.btn-down {
+	transform: matrix(1,0,0,1,936,954);
+	transform-origin: center;
+	position: absolute;
+	width: 48px;
+	height: 48px;
+	left: 0px;
+	top: 0px;
+    // overflow: visible;
+    background: url('../img/btn-down-mobile.svg');
+    border-radius: 50%;
+    border: 0px solid #98a1a4;
+    // overflow: hidden;
+    // background: transparent; /* Change it to transparent */
+    /* remove background-opacity */
+    box-shadow: 0 0 3px gray;
+    z-index: 1;
+}
+
+#content-detail {
+    width: 100%;
+    height: 1072px;
+    background-color: #1E2B2F;
+    // overflow: visible;
+}
+
+#brand-mark {
+	position: absolute;
+	width: 1861.047px;
+	height: 1417px;
+	left: -430.821px;
+	top: 758.425px;
+    overflow: hidden;
+    background: url('../img/brand-mark.svg');
+}
+
+#detail {
+	left: 975px;
+	top: 1392px;
+	position: absolute;
+	// overflow: visible;
+	width: 446px;
+	white-space: nowrap;
+	line-height: 54px;
+	margin-top: -2px;
+	text-align: left;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 50px;
+	color: rgba(255,255,255,1);
+}
+
+#sub-detail {
+	left: 975px;
+	top: 1544px;
+	// position: absolute;
+	// overflow: visible;
+	width: 439px;
+	white-space: nowrap;
+	line-height: 32px;
+	margin-top: 40px;
+	text-align: left;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 22px;
+	color: rgba(255,255,255,1);
+	letter-spacing: 0.2px;
+}
+
+#btn-leran-more {
+	left: 31px;
+	top: 4.5px;
+	// position: absolute;
+	// overflow: visible;
+	width: 100px;
+	white-space: nowrap;
+	line-height: 28px;
+	margin-top: 40px;
+	text-align: center;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 15px;
+    color: rgba(255,255,255,1);
+    border: 1px solid #ffffff;
+    letter-spacing: 0.25px;
+    background: transparent;
+}
+
+#offer-derail {
+    width: 100%;
+    height: 1072px;
+    background-color: #E2E3DF;
+    // overflow: visible;
+    padding-top: 100px;
+}
+
+#offer-title {
+	left: 532px;
+	top: 0px;
+	// position: absolute;
+	// overflow: visible;
+	white-space: nowrap;
+	line-height: 152px;
+	margin-top: -12px;
+	text-align: center;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 46px;
+	color: rgba(30,43,47,1);
+}
+
+.card {
+    background-color: white;
+    // padding: 20px;
+    margin-top: 20px;
+    // margin-right: 132px;
+    // margin-left: 132px;
+    margin: auto;
+    width: 350px;
+    height: 583px;
+    text-align: center;
+    font-family: Roboto;
+	font-style: normal;
+	font-weight: lighter;
+	// font-size: 46px;
+	color: rgba(30,43,47,1);
+}
+
+.card-img {
+    margin-bottom: 20px;
+    width: 100%;
+    height: 364px;
+    // padding: 20px;
+}
+
+#contact-detail {
+    width: 100%;
+    height: 1072px;
+    background-color:#28393E;
+    // overflow: visible;
+}
+    
+#contact-title {
+    background-color: #ffffff;
+    position: absolute;
+	// overflow: visible;
+	width: 445px;
+	height: 607px;
+	left: 405px;
+    top: 3450px;
+    text-align: center;
+    // justify-content: center;
+    // align-items: center;
+    h2 {
+        left: 498px;
+        top: 3670px;
+        // overflow: hidden;
+        // width: 264px;
+        height: 54px;
+        line-height: 70px;
+        margin-top: 200px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: lighter;
+        font-size: 46px;
+        color: rgba(30,43,47,1);
+    }
+    p {
+        left: 501.5px;
+        top: 3747px;
+        // position: absolute;
+        // overflow: visible;
+        width: 257px;
+        // white-space: nowrap;
+        line-height: 30px;
+        margin-top: 30px;
+        font-weight: lighter;
+        font-size: 16px;
+        color: rgba(30,43,47,1);
+        letter-spacing: 0.2px;
+        margin-left: 90px;
+    }
+}
+
+#contact-form {
+    background-color: #E2E3DF;
+    position: absolute;
+	// overflow: visible;
+	width: 665px;
+	height: 607px;
+	left: 849.5px;
+	top: 3450px;
+}
+
+.contact-form-flex {
+    // display: flex;
+    // margin-left: 0px;
+    margin: auto;
+    margin-top: 200px;
+    width: 90%;
+    input {
+        margin-bottom: 50px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: lighter;
+        color: rgba(30,43,47,1);
+
+        &[type='text'], &[type='email'], &[type='number'] {
+            border: none !important;
+            background: #E2E3DF !important;
+            border-bottom: 1.5px solid #1E2B2F!important;
+        }
+        // width: 100%;
+        border-radius: 0px !important;
+        outline: 0;
+        font-size: 1.3rem;
+        color: $white;
+        padding: 0px !important;
+        background: transparent;
+        transition: border-color 0.2s;
+
+        &[type='submit'] {
+            // margin-top: 20px;
+            width: 50%;
+            border: block !important;
+        }
+    }  
+}
+
+#wrapper-footer {
+    width: 100%;
+    height: 529px;
+    background-color: #1E2B2F;
+    // overflow: visible;
+}
+
+.logo-footer {
+    position: absolute;
+    width: 190px;
+    height: 49.054px;
+    left: 405px;
+    top: 4393px;
+    // overflow: visible;
+    margin-top: 80px;
+}
+
+#footer-address {
+	left: 691px;
+	top: 4389px;
+	position: absolute;
+	overflow: visible;
+	width: 132px;
+	white-space: nowrap;
+	line-height: 24px;
+	margin-top: -4px;
+	text-align: left;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 16px;
+	color: rgba(255,255,255,1);
+    letter-spacing: 0.25px;
+    margin-top: 80px;
+}
+
+#footer-email {
+    a {
+        left: 975px;
+        top: 4389px;
+        position: absolute;
+        overflow: visible;
+        width: 199px;
+        white-space: nowrap;
+        line-height: 24px;
+        margin-top: -4px;
+        text-align: left;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: lighter;
+        font-size: 16px;
+        color: rgba(255,255,255,1);
+        letter-spacing: 0.25px;
+        margin-top: 80px;
+    }
+}
+
+#footer-tel {
+	left: 975px;
+	top: 4437px;
+	position: absolute;
+	overflow: visible;
+	width: 131px;
+	white-space: nowrap;
+	line-height: 24px;
+	margin-top: -4px;
+	text-align: left;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 16px;
+	color: rgba(255,255,255,1);
+    letter-spacing: 0.25px;
+    margin-top: 80px;
+}
+#directions {
+    a {
+        left: 690px;
+        top: 4509.5px;
+        position: absolute;
+        overflow: visible;
+        width: 98px;
+        white-space: nowrap;
+        line-height: 28px;
+        margin-top: -6px;
+        text-align: left;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: lighter;
+        font-size: 16px;
+        color: rgba(255,255,255,1);
+        letter-spacing: 0.25px;
+        margin-top: 80px;
+    }
+}
+
+#open-days {
+	left: 975px;
+	top: 4486px;
+	position: absolute;
+	overflow: visible;
+	width: 143px;
+	white-space: nowrap;
+	line-height: 24px;
+	margin-top: -4px;
+	text-align: left;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 16px;
+	color: rgba(255,255,255,1);
+    letter-spacing: 0.25px;
+    margin-top: 80px;
+}
+
+#copy-right {
+	left: 412px;
+	top: 4731px;
+	position: absolute;
+	overflow: visible;
+	width: 293px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 14px;
+	color: rgba(255,255,255,1);
+    letter-spacing: 0.25px;
+    margin-top: 50px;
+}
+
+#facebook {
+    a {
+        left: 975px;
+        top: 4389px;
+        position: absolute;
+        overflow: visible;
+        width: 199px;
+        white-space: nowrap;
+        line-height: 24px;
+        text-align: left;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: lighter;
+        font-size: 16px;
+        color: rgba(255,255,255,1);
+        letter-spacing: 0.25px;
+        margin-top: 80px;
+        margin-left: 300px;
+        font-size: 20px;
+    }
+}
+
+#twitter {
+    a {
+        left: 975px;
+        top: 4389px;
+        position: absolute;
+        overflow: visible;
+        width: 199px;
+        white-space: nowrap;
+        line-height: 24px;
+        text-align: left;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: lighter;
+        font-size: 16px;
+        color: rgba(255,255,255,1);
+        letter-spacing: 0.25px;
+        margin-top: 80px;
+        margin-left: 350px;
+        font-size: 20px;
+    }
+}
+
+#instagram {
+    a {
+        left: 975px;
+        top: 4389px;
+        position: absolute;
+        overflow: visible;
+        width: 199px;
+        white-space: nowrap;
+        line-height: 24px;
+        text-align: left;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: lighter;
+        font-size: 16px;
+        color: rgba(255,255,255,1);
+        letter-spacing: 0.25px;
+        margin-top: 80px;
+        margin-left: 400px;
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    #top-bar {
+        height: 812px;
+        width: 375px;
+        background-color: #28393e;
+        background-image: url('../img/background.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        // overflow: visible;
+    }
+
+    #title {
+        position: absolute;
+		width: 235.88px;
+		height: 60.9px;
+		left: 70px;
+		top: 317px;
+        // overflow: visible;
+        background-image: url('../img/logo-moblie.svg');
+    }
+
+    #date {
+        left: 130px;
+		top: 563.008px;
+		position: absolute;
+		overflow: visible;
+		width: 120px;
+		line-height: 38px;
+		margin-top: -5px;
+		font-weight: lighter;
+		font-size: 28px;
+		color: rgba(255,255,255,1);
+        letter-spacing: 0.2px;
+    }
+
+    .btn-down {
+        // transform: matrix(1,0,0,1,936,954) rotate(-90deg);
+        transform-origin: center;
+        position: absolute;
+        width: 48px;
+        height: 48px;
+        left: 0px;
+        top: 0px;
+        // overflow: visible;
+        background: url('../img/btn-down.svg');
+        border-radius: 50%;
+        border: 0px solid #98a1a4;
+        // overflow: hidden;
+        // background: transparent; /* Change it to transparent */
+        /* remove background-opacity */
+        box-shadow: 0 0 3px gray;
+    }
+
+    // #contact-detail {
+    //     width: 100%;
+    //     height: 809px;
+    //     background-color:#28393E;
+    //     // overflow: visible;
+    // }
+
+    // #contact-title {
+    //     background-color: #ffffff;
+    //     position: absolute;
+    //     overflow: visible;
+    //     width: 259px;
+    //     height: 165px;
+    //     left: 1px;
+    //     top: 242px;
+    //     text-align: center;
+    //     // justify-content: center;
+    //     // align-items: center;
+    //     h2 {
+    //         left: 498px;
+    //         top: 3670px;
+    //         // overflow: hidden;
+    //         // width: 264px;
+    //         height: 54px;
+    //         line-height: 70px;
+    //         margin-top: 200px;
+    //         font-family: Roboto;
+    //         font-style: normal;
+    //         font-weight: lighter;
+    //         font-size: 46px;
+    //         color: rgba(30,43,47,1);
+    //     }
+    //     p {
+    //         left: 501.5px;
+    //         top: 3747px;
+    //         // position: absolute;
+    //         // overflow: visible;
+    //         width: 257px;
+    //         // white-space: nowrap;
+    //         line-height: 30px;
+    //         margin-top: 30px;
+    //         font-weight: lighter;
+    //         font-size: 16px;
+    //         color: rgba(30,43,47,1);
+    //         letter-spacing: 0.2px;
+    //         margin-left: 90px;
+    //     }
+    // }
+}
+
